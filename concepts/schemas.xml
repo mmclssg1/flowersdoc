@@ -1,0 +1,3 @@
+<?xml version="1.0" ?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+<uri resource="file:/home/michael/OxygenXMLEditor/samples/dita/flowers/concepts/autumnFlowers.dita" uri="file:/home/michael/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/catalog-dita.xml"/><include rules="file:/home/michael/.jedit/plugins/xml.XmlPlugin/schemas.xml" /></locatingRules>
