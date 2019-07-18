@@ -1,0 +1,12 @@
+language: dita
+install:
+  - echo "Installed"
+script:
+  - sh .travis/travis_ditaBuild.sh
+after_success:
+  - sh .travis/ditaDeploy.sh
+env:
+  global:
+    - DITAMAP=/mmclssg1/flowersdoc/flowers.ditamap
+    - DITAVAL=/mmclssg1/flowersdoc/ditavals/rev1.ditaval
+    - ANT_OPTS=-Xmx1024M
